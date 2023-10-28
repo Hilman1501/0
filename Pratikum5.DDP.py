@@ -3,11 +3,11 @@
 #tambahakan setelah jenis kendaraan dengan value [merk kendaraan]
 
 
-kendaraan=["yamaha", "motor", "6000", "Hitam manis"]
+kendaraan=["motor", "scoopy", "6000", "Hitam manis"]
 
 print(kendaraan)
 
-kendaraan.append("Rp.15juta",)
+kendaraan.append("Rp.150juta",)
 kendaraan.append("Roda 2")
 kendaraan.insert(2,"Honda")
 kendaraan.insert(1,"Matic")
@@ -15,10 +15,6 @@ kendaraan.insert(1,"Matic")
 print(kendaraan)
 
 #buat program python dengan match case untuk menghitung luas bangun datar:
-##jika pilih1, maka menghitung persegi
-##jika pilih2, maka menghitung lingkaran
-#jika pilih3 maka menghitung luas segitiga
-
 
 import math
 
