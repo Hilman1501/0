@@ -39,34 +39,8 @@ def hitung_luas(bentuk, *args):
         case _:
             return " Salah masukkan pilihan"
 
-print("Luas Persegi:", hitung_luas("persegi", 7))
-print("Luas Lingkaran:", hitung_luas("lingkaran", 8))
+print("Luas Persegi:", hitung_luas("persegi", 20))
+print("Luas Lingkaran:", hitung_luas("lingkaran", 38))
 print("Luas Segitiga:", hitung_luas("segitiga",8,4))#
-
-
-
-
-
-pilihan=int(input('menghitung luas bangun datar; '))
-match pilihan:
-    case "persegi":
-        sisi = int(input('Input panjang sisi persegi: '))
-        luas_p= sisi* sisi
-        print('Luas persegi', luas_p)
-
-    case "lingkaran":
-        jari2 = float(input('Input jari-jari lingkaran: '))
-        luas_L= 3.14 * jari2 * jari2
-        print('Luas lingkaran', int(luas_L))
-    
-    case "segitiga":
-        print(" menghitung segitiga")
-        alas = int(input("Alas  : "))
-        tinggi = int(input("Tinggi: "))
-        luas_S= alas*tinggi/2
-        print('Luas Segitiga ', int(luas_S))
-
-
-
 
 
