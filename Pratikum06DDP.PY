@@ -1,4 +1,4 @@
-
+no
 #Buat program untuk minta input jumlah baris
 # dan buatrangkaian berikut ini
 #*
@@ -33,7 +33,7 @@ nilai = int(input('masukan baris: '))
 for b in range(nilai):
     for c in range(b+1):
         print(' * ', end=(' '))
-print('')
+    print('')
 
 
 #no.3
