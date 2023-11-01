@@ -26,7 +26,17 @@ while j < len(number):
     
 print('')
     
-#no.2 
+#no.2
+
+
+nilai = int(input('masukan baris: '))
+for b in range(nilai):
+    for c in range(b+1):
+        print(' * ', end=(' '))
+print('')
+
+
+#no.3
 
 jumlah = 0
 for a in range(1, 20, 2):
@@ -34,10 +44,3 @@ for a in range(1, 20, 2):
     print(a,end=' + ')
 print('=', jumlah)
     
-#no.3
-
-nilai = int(input('masukan baris: '))
-for b in range(nilai):
-    for c in range(b+1):
-        print(' * ', end=(' '))
-print('')
